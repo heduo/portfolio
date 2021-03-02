@@ -61,7 +61,16 @@ export const projectsData = [
     info2: 'Please pick ranges before AUG 2020, because no sales data after July 2020',
     url: 'https://tranquil-caverns-45960.herokuapp.com/',
     repo: 'https://github.com/heduo/sales', // if no repo, the button will not show up
-  }
+  },
+  {
+    id: nanoid(),
+    img: 'portfolio.jpg',
+    title: 'Portfolio',
+    info: 'Personal website using Gatsby',
+    info2: '',
+    url: 'https://stupefied-yalow-fa958a.netlify.app',
+    repo: 'https://github.com/heduo/portfolio', // if no repo, the button will not show up
+  },
 ];
 
 // CONTACT DATA
