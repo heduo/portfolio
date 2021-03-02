@@ -21,7 +21,8 @@ export const aboutData = {
   paragraphOne: 'I’m a professional software engineer with 3 years‘ experience in web development. I love clean and beautiful code. I’m good at collaborating with other engineers, keeping continuous learning, and advancing current software engineering practices.',
   paragraphTwo: 'My main technical stack includes PHP/Laravel, JavaScript/jQuery/React/Vue, HTML5, CSS3, MySQL, Redis, Linux.',
   paragraphThree: 'I graduated from University of Wollongong University in 2016, holding a master degree of Computer Science.',
-  resume: 'https://stupefied-yalow-fa958a.netlify.app/Derek_HE_CV.docx', // if no resume, the button will not show up
+ // resume: `https://stupefied-yalow-fa958a.netlify.app/Derek_HE_CV.docx`, // if no resume, the button will not show up
+  resume: `${window.location.protocol + "//" + window.location.host}/Derek_HE_CV.docx`
 };
 
 // PROJECTS DATA
