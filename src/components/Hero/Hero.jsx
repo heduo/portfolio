@@ -29,8 +29,8 @@ const Header = () => {
             {title || 'Hi, my name is'}{' '}
             <span className="text-color-main">{name || 'Name'}</span>
             <br />
-            {subtitle || ""}
           </h1>
+          <h2 className="text-color-main"> {subtitle || ""}</h2>
         </Fade>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
           <p className="hero-cta">

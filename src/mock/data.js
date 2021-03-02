@@ -9,9 +9,9 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: 'Full Stack Developer',
+  title: 'Full Stack Web Developer',
   name: 'Derek HE',
-  subtitle: '',
+  subtitle: 'Front End Developer | Backend Developer | PHP Developer',
   cta: '',
 };
 
@@ -28,11 +28,11 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'ppmall.jpg',
     title: 'PP Mall',
     info: 'This is a fully-functioned E-Commerce web app built by PHP/Laravel with Stripe payment gateway integrated. It consists of models of users, users_addresses, admins, orders, products, coupons',
     info2: 'Laravel is used as the MVC framework. Vue.js and Google place api is used in user address component. Redis is used for queque jobs. MySQL is used for DBS.',
-    url: 'https://ec2-34-224-58-23.compute-1.amazonaws.com',
+    url: 'http://165.232.164.104',
     repo: 'https://github.com/heduo/ppmall', // if no repo, the button will not show up
   },
   {
